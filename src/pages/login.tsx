@@ -1,9 +1,11 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const LoginPage = () => {
+  const navigate = useNavigate();
   return (
     <main>
-      <section style={{ backgroundColor: "Gray" }}>
+      <section className="bg-light-gray">
         <form action="">
           <div>
             <label htmlFor="id">id</label>
@@ -14,6 +16,7 @@ const LoginPage = () => {
             <input type="password" id="password" />
           </div>
         </form>
+        <button onClick={() => navigate("security")}>로그인</button>
       </section>
     </main>
   );

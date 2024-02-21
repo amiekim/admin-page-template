@@ -1,0 +1,29 @@
+.d-flex {
+  display: flex;
+}
+.jc-center {
+  justify-content: center;
+}
+.ai-center {
+  align-items: center;
+}
+.bg-light-gray {
+  background-color: lightgray;
+}
+.layout__gnb {
+  width: 100px;
+  height: 100vh;
+}
+.h-full-screen {
+  height: 100vh;
+}
+.square-box__container {
+  border: 1px solid black;
+  border-radius: 3px;
+  width: 50px;
+  height: 50px;
+}
+.square-box__container input {
+  height: 100%;
+  width: 100%;
+}
